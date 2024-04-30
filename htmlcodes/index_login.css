@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;;
+}
+section{
+    width: 100%;
+    min-height: 100%;
+
+    position: absolute;
+    display: flex;
+    background: url(WhatsApp\ Image\ 2023-02-28\ at\ 4.00.18\ PM.jpeg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Form_box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:rgb(253, 252, 252);
+    background: transparent;
+
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    padding: 1.5em;
+    height: 15em;
+    
+    border: solid ;
+    border-radius: 2em;
+    backdrop-filter: blur(0.2em);
+    transition: 0.5s;
+   }
+   .Form_box:hover{
+      padding: 2em;
+      backdrop-filter: blur(0.2em);
+   }
+   h3{ padding-bottom: 0.3em;}
+.inputbox{
+    display: flex;
+    justify-content: left;
+    position: relative;
+    margin-top: 0.5em;
+    height: 2em;
+} 
+.inputbox input{
+    position:absolute;
+    background: transparent;
+    left: 0em;
+    width: 80%;
+    color: white;
+    padding: 0.2em;
+    padding-right: 1.6em;
+    font-size: medium;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 1.3em;
+    padding-top: 0.3em;
+    color: rgb(246, 249, 250);
+}
+
+button{
+    width: 80%;
+    border-radius: 1em;
+    margin-top: 1em;
+    padding: 0.2em;
+    margin-top: 0.2em;
+}
+button:hover{ background-color: rgb(74, 74, 161);}
+.rem a {
+  margin-left: 0.2em;
+  font-weight: 50;
+  cursor: pointer;
+}
+.rem{ margin-top: 0.4em; margin-bottom: 0.4em;}
+.rem input{
+    margin-right: 0.2em;
+    font-weight: 200;
+}
+.rem a:hover{ text-decoration: underline;}
+.register a:hover{ text-decoration: underline;}
+.register{
+    margin-top: 0.4em;
+    font-weight: 200;
+}
+.register a {
+    margin-left: 0.2em;
+    font-weight: 200;
+    cursor: pointer;
+  }

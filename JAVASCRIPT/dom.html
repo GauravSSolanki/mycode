@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="handleclick()">submit</button>
+    <div id="box" class="div">cvgcvghcvgh</div>
+    <p id="box" class="div">cvjm</p>
+  </body>
+  <script>
+    const handleclick = () => {
+      //   document.getElementById("box").innerHTML = "this is a pen";
+      //   document.getElementById("box").style.color = "red";
+      //   document.getElementBy("div")[0].style.color = "red";
+      //   document.getElementsByTagName("div")[0].style.color = "red";
+      //   document.getElementsByTagName("p")[0].style.color = "red";
+
+      document.querySelectorAll("div")[0].style.color = "blue";
+      document.querySelectorAll("p")[0].style.color = "blue";
+    };
+  </script>
+</html>

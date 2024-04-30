@@ -1,0 +1,25 @@
+.center{
+    align-items: center;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.block{
+    display: inline-block;
+}
+.justify_content{
+    justify-content: center;
+}
+.space_around{
+    justify-content: space-between;
+}
+.text_decoration{
+    text-decoration: none;
+}
+.space_between{
+    justify-content: space-between;
+}
+.inline_flex{
+    display: inline-flex;
+}

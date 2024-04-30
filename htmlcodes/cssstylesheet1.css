@@ -1,0 +1,28 @@
+
+.box img{
+    width: 400px;
+    height: 400px;
+    margin-left: 49px;
+}
+.nav{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(26, 115, 224);
+}
+.logo_img{
+    width: 30px;
+    height: 17px;
+    margin-right: 10px;
+}
+.nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    padding 4px;
+}
+a {
+    text-decoration: none;
+}
+.right{
+    margin-right: 40px;
+    font-size: medium;
+}
